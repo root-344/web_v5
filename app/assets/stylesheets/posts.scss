@@ -35,6 +35,7 @@ header {
   height: 85vh;
   position: relative;
   background-color: cornflowerblue;
+  // display: none;
 }
   #go-btn {
     width: 100px;
@@ -62,38 +63,33 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-
-}
-  .menu {
+  .main-back-btn {
+    height: 5vh;
+    border: 1px solid ivory;
+    background-color: blue;
+    color: ivory;
+    cursor: pointer;
+  }
+  .menus{
     width: 100vw;
     height: 100vh;
     background-color: blue;
-  }
-    .back-btn {
-      height: 5vh;
-      border: 1px solid ivory;
-      background-color: blue;
-      color: ivory;
-      cursor: pointer;
-    }
     .main-menu {
       display: flex;
       width: 100vw;
       height: 95vh;
       background-color: blue;
-    }
+    
       .menu-status {
         width: 80vw;
         height: 100vh;
         background-color: blue;
-      }
         .profiles {
           width: 80vw;
           height: 25vh;
           display: flex;
           padding: 10px;
           background-color: blue;
-        }
           .img {
             width: 20vw;
             min-width: 20vw;
@@ -103,10 +99,13 @@ header {
             width: 70vw;
             padding-top: 10px;
             padding-left: 10px;
-          }
+          
             .name, .life-p, .magic-p {
               margin-bottom: 10px;
             }
+          }
+        }
+      }
 
       .menu-contents {
         width: 20vw;
@@ -114,16 +113,21 @@ header {
         padding: 10px 0 0 10px;
         background-color: blue;
         border: 2px solid ivory;
-      }
+      
         .menu {
           width: 100%;
           height: calc( 100% / 7);        
           color: ivory;
           font-style: italic;
-        }
-          .menu p {
+        
+          .content-word {
             cursor: pointer;
           }
+        }
+      }
+    }
+  }
+}
 
 //ステータス部分
 #modal2 {
@@ -137,26 +141,164 @@ header {
   bottom: 0;
   left: 0;
   background-color: blue;
+  .back-btn {
+    height: 5vh;
+    border: 1px solid ivory;
+    background-color: blue;
+    color: ivory;
+    cursor: pointer;
+  }
   .statuses {
     display: flex;
     width: 100%;
     height: 100%;
-  }
+    border: 2px solid ivory;
+    border-top: none;
+  
     .status {
       margin: 20px;
-    }
-      .status-content {
-        display: flex;
-        width: 100%;
-        height: calc( 100% / 5);
-        margin-bottom: 10px;
-        font-size: large;
+      .img {
+        width: 20vw;
+        min-width: 20vw;
+        height: 20vh;
       }
-        .status-word {
-          width: 80%;
-          height: 100%;
+    
+        .status-content {
+          display: flex;
+          width: 100%;
+          height: calc( 100% / 5);
+          margin-bottom: 10px;
+          font-size: large;
+        
+          .status-word {
+            width: 80%;
+            height: 100%;
+          }
         }
+    }
+  }
 }
+//アイテム まほう わざ部分
+#modal3 {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  
+  .back-btn {
+    height: 5vh;
+    border: 1px solid ivory;
+    cursor: pointer;
+  }
+  .item-container {
+    width: 100%;
+    height: 95%;
+    padding: 20px;
+    border: 2px solid ivory;
+    border-top: none;
+    overflow: auto;
+
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+
+      .item {
+        width: calc( 100% / 4);
+        height: 5vh;
+        list-style: square;
+      }
+    }
+  }
+
+}
+//まほう部分
+#modal4 {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  
+  .back-btn {
+    height: 5vh;
+    border: 1px solid ivory;
+    cursor: pointer;
+  }
+  .magic-container {
+    width: 100%;
+    height: 95%;
+    padding: 20px;
+    border: 2px solid ivory;
+    border-top: none;
+    overflow: auto;
+
+    .magics {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+
+      .magic {
+        width: calc( 100% / 4);
+        height: 5vh;
+        list-style: square;
+      }
+    }
+  }
+
+}
+//わざ部分
+#modal5 {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  
+  .back-btn {
+    height: 5vh;
+    border: 1px solid ivory;
+    cursor: pointer;
+  }
+  .skill-container {
+    width: 100%;
+    height: 95%;
+    padding: 20px;
+    border: 2px solid ivory;
+    border-top: none;
+    overflow: auto;
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%;
+
+      .skill {
+        width: calc( 100% / 4);
+        height: 5vh;
+        list-style: square;
+      }
+    }
+  }
+
+}
+
 //footer部分
 footer {
   height: 5vh;

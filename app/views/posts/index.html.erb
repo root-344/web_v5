@@ -1,7 +1,7 @@
 <header></header>
 <div id="modal1">
-  <div class="menu">
-    <div class="back-btn">◀️ 戻る</div>
+  <div class="main-back-btn">◀️ 戻る</div>
+  <div class="menus">
     <div class="main-menu">
       <div class="menu-status">
         <div class="profiles">
@@ -39,22 +39,22 @@
       </div>
       <ul class="menu-contents">
         <li class="menu a">
-          <p>ステータス</p>
+          <p class="content-word">ステータス</p>
         </li>
         <li class="menu b">
-          <P>アイテム</p>
+          <P class="content-word">アイテム</p>
         </li>
         <li class="menu c">
-          <p>まほう</p>
+          <p class="content-word">まほう</p>
         </li>
         <li class="menu d">
-          <p>わざ</p>
+          <p class="content-word">わざ</p>
         </li>
         <li class="menu e">
-          <p>コンフィグ</p>
+          <p class="content-word">コンフィグ</p>
         </li>
         <li class="menu f">
-          <p>セーブ</p>
+          <p class="content-word">セーブ</p>
         </li>
       </ul>
     </div>
@@ -71,24 +71,24 @@
       <div class="status-wrapper">
         <ul class="status-contents">
           <li class="status-content">
-          <div class="status-word">ちから</div>
-          <div class="states-point">15</div>
+            <div class="status-word">ちから</div>
+            <div class="states-point">15</div>
           </li>
           <li class="status-content">
-          <div class="status-word">はやさ</div>
-          <div class="states-point">20</div>
+            <div class="status-word">はやさ</div>
+            <div class="states-point">20</div>
           </li>
           <li class="status-content">
-          <div class="status-word">ちせい</div>
-          <div class="states-point">10</div>
+            <div class="status-word">ちせい</div>
+            <div class="states-point">10</div>
           </li>
           <li class="status-content">
-          <div class="status-word">みのまもり</div>
-          <div class="states-point">12</div>
+            <div class="status-word">みのまもり</div>
+            <div class="states-point">12</div>
           </li>
           <li class="status-content">
-          <div class="status-word">うん</div>
-          <div class="states-point">255</div>
+            <div class="status-word">うん</div>
+            <div class="states-point">255</div>
           </li>
         </ul>
       </div>
@@ -180,9 +180,151 @@
         </ul>
       </div>
     </div>
-
   </div>
 </div>
+<%# アイテム画面 %>
+<div id="modal3">
+  <div class="back-btn">◀️ 戻る</div>
+  <div class="item-container">
+    <ul class="items">
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+      <li class="item">##</li>
+    </ul>
+  </div>
+</div>
+<%# まほう画面 %>
+<div id="modal4">
+  <div class="back-btn">◀️ 戻る</div>
+  <div class="magic-container">
+    <ul class="magics">
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+      <li class="magic">##</li>
+    </ul>
+  </div>
+</div>
+<%# わざ画面 %>
+<div id="modal5">
+  <div class="back-btn">◀️ 戻る</div>
+  <div class="skill-container">
+    <ul class="skills">
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>
+      <li class="skill">##</li>   
+    </ul>
+  </div>
+</div>
+
 <div class="main">
   <div id="go-btn">Go</div>
 </div>
