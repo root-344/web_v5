@@ -10,7 +10,7 @@ body {
   width: 100%;
   height: 100%;
   font-size: 14px;
-  color:white;
+  color:ivory;
   margin: 0 auto;
 }
 h1,h2,h3,h4,h5,h6,p {
@@ -296,8 +296,69 @@ header {
       }
     }
   }
-
 }
+//コンフィグ部分
+#modal6 {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+
+  .config {
+    width: 100%;
+    height: 100%;
+    border: 2px solid ivory;
+    border-top: none;
+  }
+  
+  .back-btn {
+    height: 5vh;
+    border: 1px solid ivory;
+    cursor: pointer;
+  }
+  .config-wrapper {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    padding: 10px 30px 10px 10px;
+
+    .config-contents {
+      width: 30%;
+      height: 100%;
+
+      .config-content {
+        width: 100%;
+        height: calc( 100% / 4);
+        font-size: large;
+        font-style: italic;
+      }
+    }
+
+    .config-parameters {
+      width: 70%;
+      height: 100%;
+
+      .config-parameter {
+        width: 100%;
+        height: calc( 100% / 4);
+        display: flex;
+        justify-content: space-between;
+
+        .parameter-word {
+          font-size: large;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+
+
 
 //footer部分
 footer {

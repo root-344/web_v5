@@ -6,7 +6,7 @@ body {
   width: 100%;
   height: 100%;
   font-size: 14px;
-  color: white;
+  color: ivory;
   margin: 0 auto;
 }
 
@@ -300,6 +300,67 @@ header {
   width: calc( 100% / 4);
   height: 5vh;
   list-style: square;
+}
+
+#modal6 {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+}
+
+#modal6 .config {
+  width: 100%;
+  height: 100%;
+  border: 2px solid ivory;
+  border-top: none;
+}
+
+#modal6 .back-btn {
+  height: 5vh;
+  border: 1px solid ivory;
+  cursor: pointer;
+}
+
+#modal6 .config-wrapper {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  padding: 10px 30px 10px 10px;
+}
+
+#modal6 .config-wrapper .config-contents {
+  width: 30%;
+  height: 100%;
+}
+
+#modal6 .config-wrapper .config-contents .config-content {
+  width: 100%;
+  height: calc( 100% / 4);
+  font-size: large;
+  font-style: italic;
+}
+
+#modal6 .config-wrapper .config-parameters {
+  width: 70%;
+  height: 100%;
+}
+
+#modal6 .config-wrapper .config-parameters .config-parameter {
+  width: 100%;
+  height: calc( 100% / 4);
+  display: flex;
+  justify-content: space-between;
+}
+
+#modal6 .config-wrapper .config-parameters .config-parameter .parameter-word {
+  font-size: large;
+  font-style: italic;
 }
 
 footer {
