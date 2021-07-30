@@ -12,7 +12,7 @@ $(function() {
     $('#modal3').fadeOut(0);
     $('#modal4').fadeOut(0);
     $('#modal5').fadeOut(0);
-    // $('#modal6').fadeOut(0);
+    $('#modal6').fadeOut(0);
     // $('#modal7').fadeOut(0);
     $('#modal1').fadeIn(0);
   });
@@ -32,10 +32,10 @@ $(function() {
     $('#modal1').fadeOut(0);
     $('#modal5').fadeIn(0);
   });
-  // $('.e').click(function() {
-  //   $('#modal1').fadeOut(0);
-  //   $('#modal6').fadeIn(0);
-  // });
+  $('.e').click(function() {
+    $('#modal1').fadeOut(0);
+    $('#modal6').fadeIn(0);
+  });
   // $('.f').click(function() {
   //   $('#modal1').fadeOut(0);
   //   $('#modal7').fadeIn(0);
