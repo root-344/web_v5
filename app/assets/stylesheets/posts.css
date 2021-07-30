@@ -33,7 +33,7 @@ header {
   background-color: cornflowerblue;
 }
 
-#go-btn {
+.main #go-btn {
   width: 100px;
   height: 40px;
   border: 2px solid black;
@@ -41,10 +41,15 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: large;
-  text-align: center;
   cursor: pointer;
   background-color: mistyrose;
+}
+
+.main #go-btn .go-word {
+  text-align: center;
+  font-size: larger;
+  font-style: italic;
+  color: black;
 }
 
 #modal1 {
@@ -58,6 +63,7 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
+  background-color: blue;
 }
 
 #modal1 .main-back-btn {
@@ -71,6 +77,8 @@ header {
 #modal1 .menus {
   width: 100vw;
   height: 100vh;
+  border: 2px solid ivory;
+  border-top: none;
   background-color: blue;
 }
 
@@ -117,6 +125,7 @@ header {
   padding: 10px 0 0 10px;
   background-color: blue;
   border: 2px solid ivory;
+  border-top: none;
 }
 
 #modal1 .menus .main-menu .menu-contents .menu {
@@ -361,6 +370,89 @@ header {
 #modal6 .config-wrapper .config-parameters .config-parameter .parameter-word {
   font-size: large;
   font-style: italic;
+}
+
+#modal7 {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+}
+
+#modal7 .save {
+  width: 100%;
+  height: 100%;
+}
+
+#modal7 .save .back-btn {
+  height: 5vh;
+  border: 2px solid ivory;
+  cursor: pointer;
+}
+
+#modal7 .save .save-wrapper {
+  width: 100%;
+  height: 95%;
+  border: 2px solid ivory;
+  border-top: none;
+  border-bottom: none;
+}
+
+#modal7 .save .save-wrapper .save-containers {
+  width: 100%;
+  height: calc( 100% / 3);
+  padding: 20px;
+  border-bottom: 2px solid ivory;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#modal7 .save .save-wrapper .save-containers .save-container {
+  width: 25%;
+  height: 90%;
+  display: inline-block;
+}
+
+#modal7 .save .save-wrapper .save-containers .save-container .img {
+  width: 90%;
+  height: 90%;
+}
+
+#modal7 .save .save-wrapper .save-containers .save-container .content-name {
+  font-size: large;
+  font-style: italic;
+}
+
+#modal8 {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.save-check {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: blue;
+  padding: 20px;
+  border: 2px solid ivory;
+  border-radius: 10px;
+  width: 300px;
+  height: 100px;
+  font-size: large;
+  font-style: italic;
+  text-align: center;
 }
 
 footer {
