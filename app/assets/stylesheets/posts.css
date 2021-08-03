@@ -69,8 +69,16 @@ header {
 #modal1 .main-back-btn {
   height: 5vh;
   border: 1px solid ivory;
-  background-color: blue;
+  background: linear-gradient(blue, #0064ff);
   color: ivory;
+}
+
+#modal1 .main-back-btn .back-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -86,13 +94,11 @@ header {
   display: flex;
   width: 100vw;
   height: 95vh;
-  background-color: blue;
 }
 
 #modal1 .menus .main-menu .menu-status {
   width: 80vw;
   height: 100vh;
-  background-color: blue;
 }
 
 #modal1 .menus .main-menu .menu-status .profiles {
@@ -100,12 +106,12 @@ header {
   height: 25vh;
   display: flex;
   padding: 10px;
-  background-color: blue;
+  border-bottom: 2px solid ivory;
+  background: linear-gradient(blue, #0064ff);
 }
 
 #modal1 .menus .main-menu .menu-status .profiles .img {
-  width: 20vw;
-  min-width: 20vw;
+  width: 200px;
   height: 20vh;
 }
 
@@ -126,6 +132,7 @@ header {
   background-color: blue;
   border: 2px solid ivory;
   border-top: none;
+  text-align: center;
 }
 
 #modal1 .menus .main-menu .menu-contents .menu {
@@ -149,14 +156,23 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(blue, #008cff);
 }
 
 #modal2 .back-btn {
+  width: 100vw;
   height: 5vh;
   border: 1px solid ivory;
-  background-color: blue;
+  background: linear-gradient(blue, #008cff);
   color: ivory;
+}
+
+#modal2 .back-btn .back-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -200,12 +216,23 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(blue, #008cff);
 }
 
 #modal3 .back-btn {
+  width: 100vw;
   height: 5vh;
   border: 1px solid ivory;
+  background: linear-gradient(blue, #008cff);
+  color: ivory;
+}
+
+#modal3 .back-btn .back-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -240,12 +267,23 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(blue, #008cff);
 }
 
 #modal4 .back-btn {
+  width: 100vw;
   height: 5vh;
   border: 1px solid ivory;
+  background: linear-gradient(blue, #008cff);
+  color: ivory;
+}
+
+#modal4 .back-btn .back-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -280,12 +318,23 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(blue, #008cff);
 }
 
 #modal5 .back-btn {
+  width: 100vw;
   height: 5vh;
   border: 1px solid ivory;
+  background: linear-gradient(blue, #008cff);
+  color: ivory;
+}
+
+#modal5 .back-btn .back-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -320,7 +369,7 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(blue, #008cff);
 }
 
 #modal6 .config {
@@ -331,8 +380,19 @@ header {
 }
 
 #modal6 .back-btn {
+  width: 100vw;
   height: 5vh;
   border: 1px solid ivory;
+  background: linear-gradient(blue, #008cff);
+  color: ivory;
+}
+
+#modal6 .back-btn .back-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -370,6 +430,7 @@ header {
 #modal6 .config-wrapper .config-parameters .config-parameter .parameter-word {
   font-size: large;
   font-style: italic;
+  cursor: pointer;
 }
 
 #modal7 {
@@ -381,7 +442,7 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(blue, #008cff);
 }
 
 #modal7 .save {
@@ -390,8 +451,19 @@ header {
 }
 
 #modal7 .save .back-btn {
+  width: 100vw;
   height: 5vh;
-  border: 2px solid ivory;
+  border: 1px solid ivory;
+  background: linear-gradient(blue, #008cff);
+  color: ivory;
+}
+
+#modal7 .save .back-btn .back-word {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -444,7 +516,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: blue;
+  background: linear-gradient(blue, #008cff);
   padding: 20px;
   border: 2px solid ivory;
   border-radius: 10px;
