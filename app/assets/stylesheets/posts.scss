@@ -35,7 +35,6 @@ header {
   height: 85vh;
   position: relative;
   background-color: cornflowerblue;
-  // display: none;
 
   #go-btn {
     width: 100px;
@@ -73,9 +72,16 @@ header {
   .main-back-btn {
     height: 5vh;
     border: 1px solid ivory;
-    background-color: blue;
+    background: linear-gradient(rgb(0, 0, 255), rgb(0, 100, 255));
     color: ivory;
-    cursor: pointer;
+    .back-word {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 100%;
+      cursor: pointer;
+    }
   }
   .menus{
     width: 100vw;
@@ -87,21 +93,21 @@ header {
       display: flex;
       width: 100vw;
       height: 95vh;
-      background-color: blue;
     
       .menu-status {
         width: 80vw;
         height: 100vh;
-        background-color: blue;
+
         .profiles {
           width: 80vw;
           height: 25vh;
           display: flex;
           padding: 10px;
-          background-color: blue;
+          border-bottom:2px solid ivory ;
+          background: linear-gradient(rgb(0, 0, 255), rgb(0, 100, 255));
           .img {
-            width: 20vw;
-            min-width: 20vw;
+            width: 200px;
+            // min-width: 20vw;
             height: 20vh;
           }
           .profile {
@@ -123,6 +129,7 @@ header {
         background-color: blue;
         border: 2px solid ivory;
         border-top: none;
+        text-align: center;
         .menu {
           width: 100%;
           height: calc( 100% / 7);        
@@ -149,13 +156,22 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
   .back-btn {
+    width: 100vw;
     height: 5vh;
     border: 1px solid ivory;
-    background-color: blue;
+    background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
     color: ivory;
-    cursor: pointer;
+    
+    .back-word {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 100%;
+      cursor: pointer;
+    }
   }
   .statuses {
     display: flex;
@@ -197,13 +213,25 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
-  
+  background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
+
   .back-btn {
+    width: 100vw;
     height: 5vh;
     border: 1px solid ivory;
-    cursor: pointer;
+    background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
+    color: ivory;
+    
+    .back-word {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 100%;
+      cursor: pointer;
+    }
   }
+  
   .item-container {
     width: 100%;
     height: 95%;
@@ -237,13 +265,25 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
   
   .back-btn {
+    width: 100vw;
     height: 5vh;
     border: 1px solid ivory;
-    cursor: pointer;
+    background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
+    color: ivory;
+    
+    .back-word {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 100%;
+      cursor: pointer;
+    }
   }
+
   .magic-container {
     width: 100%;
     height: 95%;
@@ -277,13 +317,25 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
-  
+  background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
+
   .back-btn {
+    width: 100vw;
     height: 5vh;
     border: 1px solid ivory;
-    cursor: pointer;
+    background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
+    color: ivory;
+    
+    .back-word {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 100%;
+      cursor: pointer;
+    }
   }
+  
   .skill-container {
     width: 100%;
     height: 95%;
@@ -316,7 +368,7 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
 
   .config {
     width: 100%;
@@ -326,10 +378,22 @@ header {
   }
   
   .back-btn {
+    width: 100vw;
     height: 5vh;
     border: 1px solid ivory;
-    cursor: pointer;
+    background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
+    color: ivory;
+    
+    .back-word {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 100%;
+      cursor: pointer;
+    }
   }
+
   .config-wrapper {
     width: 100%;
     height: 95%;
@@ -361,6 +425,7 @@ header {
         .parameter-word {
           font-size: large;
           font-style: italic;
+          cursor: pointer;
         }
       }
     }
@@ -376,17 +441,29 @@ header {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
   
   .save {
     width: 100%;
     height: 100%;
 
     .back-btn {
+      width: 100vw;
       height: 5vh;
-      border: 2px solid ivory;
-      cursor: pointer;
+      border: 1px solid ivory;
+      background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
+      color: ivory;
+      
+      .back-word {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 10%;
+        height: 100%;
+        cursor: pointer;
+      }
     }
+  
     .save-wrapper {
       width: 100%;
       height: 95%;
@@ -437,7 +514,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: blue;
+  background: linear-gradient(rgb(0, 0, 255), rgb(0, 140, 255));
   padding: 20px;
   border: 2px solid ivory;
   border-radius: 10px;
@@ -446,7 +523,6 @@ header {
   font-size: large;
   font-style: italic;
   text-align: center;
-  // display: none;
 
 }
 
