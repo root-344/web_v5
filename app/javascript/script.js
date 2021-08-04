@@ -45,5 +45,5 @@ $(function() {
   });
   $('.save-containers').click(function() {
     $('#modal8').fadeIn(0);
-  })
+  });
 });
