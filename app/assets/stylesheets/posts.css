@@ -177,19 +177,21 @@ header {
 }
 
 #modal2 .statuses {
-  display: flex;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 95vh;
   border: 2px solid ivory;
   border-top: none;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 #modal2 .statuses .status {
   margin: 20px;
+  display: inline-block;
 }
 
 #modal2 .statuses .status .img {
-  width: 20vw;
+  width: 200px;
   min-width: 20vw;
   height: 20vh;
 }
@@ -237,8 +239,8 @@ header {
 }
 
 #modal3 .item-container {
-  width: 100%;
-  height: 95%;
+  width: 100vw;
+  height: 95vh;
   padding: 20px;
   border: 2px solid ivory;
   border-top: none;
@@ -288,8 +290,8 @@ header {
 }
 
 #modal4 .magic-container {
-  width: 100%;
-  height: 95%;
+  width: 100vw;
+  height: 95vh;
   padding: 20px;
   border: 2px solid ivory;
   border-top: none;
@@ -339,8 +341,8 @@ header {
 }
 
 #modal5 .skill-container {
-  width: 100%;
-  height: 95%;
+  width: 100vw;
+  height: 95vh;
   padding: 20px;
   border: 2px solid ivory;
   border-top: none;
@@ -397,8 +399,8 @@ header {
 }
 
 #modal6 .config-wrapper {
-  width: 100%;
-  height: 95%;
+  width: 100vw;
+  height: 95vh;
   display: flex;
   padding: 10px 30px 10px 10px;
 }
@@ -468,8 +470,8 @@ header {
 }
 
 #modal7 .save .save-wrapper {
-  width: 100%;
-  height: 95%;
+  width: 100vw;
+  height: 95vh;
   border: 2px solid ivory;
   border-top: none;
   border-bottom: none;
@@ -485,18 +487,21 @@ header {
 }
 
 #modal7 .save .save-wrapper .save-containers .save-container {
-  width: 25%;
-  height: 90%;
+  width: 200px;
+  height: 100%;
+  margin-right: 40px;
   display: inline-block;
 }
 
 #modal7 .save .save-wrapper .save-containers .save-container .img {
-  width: 90%;
+  width: 100%;
   height: 90%;
 }
 
 #modal7 .save .save-wrapper .save-containers .save-container .content-name {
-  font-size: large;
+  width: 100%;
+  height: 10%;
+  font-weight: lighter;
   font-style: italic;
 }
 
